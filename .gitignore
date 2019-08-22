@@ -1,0 +1,9 @@
+.COARD/
+.idea/
+db.sqlite3
+.env
+*.py[cod]
+__pycache__/
+*pyc
+staticfiles
+.ipynb_checkpoints/
