@@ -5,12 +5,10 @@
     <title>HOME</title>
 </head>
 <body>
-{{pessoas}}
-<p>{{pessoas.nome}}</p>
-<p>{{pessoas.usuario}}</p>
-<p>{{pessoas.cpf}}</p>
-<p>{{pessoas.endereço}}</p>
-{{pessoas.status}}
+
+{% for equipamento in equipamentoslista %}
+    <p0>{{equipamento.descricao}}</p0>
+{% endfor %}
 
 </body>
 </html>
